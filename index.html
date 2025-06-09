@@ -96,10 +96,33 @@
                     <div class="mb-3">
                         <label class="form-label">We accept:</label>
                         <div class="bg-secondary p-2 rounded d-inline-flex gap-3 text-white fs-4">
-                            <i class="fab fa-cc-visa"></i>
-                            <i class="fab fa-cc-mastercard"></i>
-                            <i class="fab fa-cc-amex"></i>
-                            <i class="fab fa-cc-discover"></i>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="cardType" id="visa" value="visa"
+                                    required>
+                                <label class="form-check-label" for="visa">
+                                    <i class="fab fa-cc-visa"></i>
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="cardType" id="mastercard"
+                                    value="mastercard">
+                                <label class="form-check-label" for="mastercard">
+                                    <i class="fab fa-cc-mastercard"></i>
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="cardType" id="amex" value="amex">
+                                <label class="form-check-label" for="amex">
+                                    <i class="fab fa-cc-amex"></i>
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="cardType" id="discover"
+                                    value="discover">
+                                <label class="form-check-label" for="discover">
+                                    <i class="fab fa-cc-discover"></i>
+                                </label>
+                            </div>
                         </div>
                     </div>
 
